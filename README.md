@@ -1,9 +1,4 @@
-# Rare-Taxa-Sequence-Level-Analysis
-
-RTSeqLA (Rare Taxa Sequence Level Analysis) aims to compare the ability of discrimination rare sequences and erroneous sequences of denoising pipelines: DaDa2, Deblur, and UNOISE3. 
-It contained 4 steps: (1) Defining the rare taxa, (2) Trimming representative sequences, (3) Matching sequences from the reference database, (4) Calculating the hamming distance between representative sequence and database sequence.
-
-# Instructions
+# Rare-Taxa-Sequence-Level-Analysis Instructions
 
 1. Ensure all files in the same working directory.
 
