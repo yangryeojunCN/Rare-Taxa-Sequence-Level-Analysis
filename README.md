@@ -1,6 +1,6 @@
 # Rare-Taxa-Sequence-Level-Analysis Instructions
 
-1. Download all scripts and release
+1. Download all scripts and releases 
 
 2. Ensure all files in the same working directory.
 
