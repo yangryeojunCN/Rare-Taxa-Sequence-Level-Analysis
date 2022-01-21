@@ -1,5 +1,15 @@
 rm(list=ls())
 
+# Run these commands one by one to install the required packages.
+install.packages("BiocManager")
+BiocManager::install("Biostrings")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("reshape2")
+install.packages("stringr")
+install.packages("stringdist")
+install.packages("tidyverse")
+
 # Be sure these packages were installed.
 library(Biostrings)
 library(dplyr)
