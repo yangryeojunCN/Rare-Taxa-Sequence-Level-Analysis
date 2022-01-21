@@ -49,7 +49,6 @@ source("1.Defining_the_rare_taxa.R")
     ## - Please enter the number of the samples (e.g. 3):
     ## - Please enter the occurrence of the features among all samples (e.g. 2):
 
-
 # 2.Trimming representative sequences
 source("2.Trimming_representative_sequences_of_rare_taxa.R")
 
