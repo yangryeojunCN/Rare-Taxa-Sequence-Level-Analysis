@@ -6,7 +6,7 @@
 
    -- database
    
-   -- 0. Manual - Rare Taxa Sequence Level Analysis (RTSeqLA) .R
+   -- 0.Manual - Rare Taxa Sequence Level Analysis (RTSeqLA) .R
    
    -- 1.Defining_the_rare_taxa.R
    
