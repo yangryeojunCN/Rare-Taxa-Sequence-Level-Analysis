@@ -112,7 +112,7 @@
       --output-path R
 
     cd R
-    mv taxonomy.tsv taxonomy-MiDAS-V4.tsv                                                                                                    v taxonomy-MiDAS-V4.tsv
+    mv taxonomy.tsv taxonomy-MiDAS-V4.tsv
     
     time qiime tools import \
       --input-path USEARCH_results/otus_Qiime2.fa \
