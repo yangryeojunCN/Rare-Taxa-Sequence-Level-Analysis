@@ -76,7 +76,7 @@
 
    
 ## 3. Filter sequence by length.
-   cd /mnt/c/Omics/qiime2/YF11/fastp/flash
+   cd /mnt/...
 
     # V3V4
     mkdir flash_qc
