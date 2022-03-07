@@ -1,4 +1,4 @@
-cd /mnt/c/...
+    cd /mnt/c/...
 
     qiime tools import \
        --input-path clean_data/manifest \
@@ -6,7 +6,7 @@ cd /mnt/c/...
        --type SampleData[PairedEndSequencesWithQuality] \
        --input-format PairedEndFastqManifestPhred33
 
-    cd /mnt/c/Omics/qiime2/Rare_taxa
+    cd /mnt/c/...
     qiime demux summarize \
       --i-data DaDa2_results/demux.qza \
       --o-visualization DaDa2_results/demux.qzv
@@ -22,11 +22,11 @@ cd /mnt/c/...
       --o-representative-sequences DaDa2_results/rep-seqs.qza \
       --o-denoising-stats DaDa2_results/denoising-stats.qza
 
-  qiime metadata tabulate \
-    --m-input-file DaDa2_results/denoising-stats.qza \
-    --o-visualization DaDa2_results/denoising-stats.qzv
+    qiime metadata tabulate \
+      --m-input-file DaDa2_results/denoising-stats.qza \
+      --o-visualization DaDa2_results/denoising-stats.qzv
 
-  qiime tools export \
+    qiime tools export \
        --input-path DaDa2_results/denoising-stats.qzv \
        --output-path DaDa2_results/denoising-stats
 
@@ -38,11 +38,10 @@ cd /mnt/c/...
        --input-path DaDa2_results/table.qzv \
        --output-path DaDa2_results/Feature_table_summary
       
-      qiime feature-table tabulate-seqs \
+     qiime feature-table tabulate-seqs \
        --i-data DaDa2_results/rep-seqs.qza \
        --o-visualization DaDa2_results/rep-seqs.qzv
 
-    cd /mnt/c/Omics/qiime2/Rare_taxa
     qiime feature-table rarefy \
       --i-table DaDa2_results/table.qza \
       --p-sampling-depth 22627 \
